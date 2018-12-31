@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #f9f9f9;
+    max-width: 1020px;
+    margin: auto;
+    }
+    .sign_in{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    .check_boxes{
+      display: flex;
+      padding: 30px 10px;
+      background-color: white;
+      
+
+    }
+    input[type=checkbox]{
+        color: aquamarine;
+        background-color: white;
+    }
+    input[type=text1] {
+       margin-right: 20px;
+       margin-top: 20px;
+    }
+    input[type=text2] {
+        margin-right: 20px;
+        border: 1px solid gray;
+        background-color: aquamarine;
+        color: white;
+        width: 80px;
+        margin-top: 20px;
+    }
+    .sorted{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .trump_img{
+        width: 200px;
+        height: 100px;
+        
+    }
+    .main_section{
+        display: flex;
+        padding: 40px 40px;
+        background-color: white;
+        margin-top: 20px;
+
+    }
+    .main_para{
+      margin-left: 20px;
+     
+
+    }
+    .first_para{
+        
+       font-size: 30px; 
+       margin-bottom: 20px;
+
+    }
+    .second_para{
+        font-weight: 700;
+        font-size: 16px; 
+    }
+
+    

@@ -15,13 +15,28 @@ body{
     .title{
         display: flex;
         justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .check_boxes{
       display: flex;
       padding: 30px 10px;
       background-color: white;
-      
-
+      }
+      .check_box1{
+          margin-right: 20px;
+      }
+      .check_box2{
+        margin-right: 20px;
+    }
+    .check_box3{
+        margin-right: 20px;
+    }
+    .check_box4{
+        margin-right: 20px;
+    }
+    .check_box5{
+        margin-right: 20px;
     }
     input[type=checkbox]{
         color: aquamarine;
@@ -33,16 +48,21 @@ body{
     }
     input[type=text2] {
         margin-right: 20px;
-        border: 1px solid gray;
-        background-color: aquamarine;
+        padding: 8px 16px;
+        background-color:#47C1BF;
         color: white;
-        width: 80px;
+        width: 100px;
         margin-top: 20px;
+        border: none;
+    }
+
+    .check_boxes input{
+        margin-right: 12px;
     }
     .sorted{
         display: flex;
         justify-content: flex-end;
-
+        transform: translateY(-100%)
     }
     .trump_img{
         width: 200px;
